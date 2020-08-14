@@ -6,16 +6,14 @@ de natalidade da cidade "Y".
 
 */
 
-const formNat = document.querySelector('#form-nat');
+const formNat = document.querySelector( '#form-nat' );
 
-formNat.addEventListener('submit', (event) => {
+formNat.addEventListener('submit', ( event ) => {
     event.preventDefault();
     
- 
-
-    const natX = document.querySelector('[name=cidadeX]').value;
+    const natX = document.querySelector( '[name=cidadeX]' ).value;
     const natY = natX * 1.30;
-    const fieldY = document.querySelector('[name=cidadeY]');
+    const fieldY = document.querySelector( '[name=cidadeY]' );
     fieldY.value = natY;
 
     if( natX == "" ){
