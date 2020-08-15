@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculator-energy-bill.css">
+    <title>Calcular conta de energia da Fabrica</title>
+</head>
+<body>
+    <main>
+
+        <div id="info">Dado: consumo em KWH. Construa um algoritimo para calcular a conta de energia elétrica de uma fábrica conforme a tabela a seguir;</div>
+        <div id="form-calculator">
+            <form action="get">
+                <label for="inputEnteryKwh">Insira o consumo em KWH:<input type="text" name="inputenteryKwh"></label>
+                <hr>
+                <label for="inputResultEnergyBill">Valor da sua Fatura é:<input type="text" name="inputResultEnergyBill"></label>
+                <button type="submit">Calcular</button>
+            </form>
+        </div>
+        <table id="table-rate" summary="Confira as variações segundo a tabela de KWH">
+            
+           
+                <tr id="thead">
+                    <th colspan="2">Tabela em KWH</th>
+                </tr>
+          
+           
+            <tbody>
+                <tr>
+                    <td class="colm1">até 300 kwh</td>
+                    <td class="colm2">R$ 1,25</td>
+                </tr>
+                <tr>
+                    <td>de 301 até 500</td>
+                    <td>R$ 1,50</td>
+                </tr>
+                <tr>
+                    <td>de 501 até 600</td>
+                    <td>R$ 1,75</td>
+                </tr>
+                <tr>
+                    <td>de 601 até 800</td>
+                    <td>R$ 2,00</td>
+                </tr>
+                <tr>
+                    <td>Acima de 800</td>
+                    <td>R$ 2,50</td>
+                </tr>
+            </tbody>
+         
+        </table>
+    </main>
+    <script src="js/calculator-of-the-electricity-bill.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+/*SUMMARY
+
+-geral
+-topo
+-formulario -form
+-tabela de taxas
+
+*/
+
+
+/*geral*/
+main {
+    display: block;
+    width: 300px;
+    margin:150px auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    padding: 0; 
+}
+/*geral final*/
+
+/*topo*/
+#info, #form-calculator {
+    padding: 20px;
+}
+
+#info{
+    background:rgb(174, 255, 93);
+    
+}
+
+/*topo final*/
+
+/*Formulário - Form*/
+
+#form-calculator{font-size: 0.8em;}
+
+#form-calculator label {
+   display: block;
+   float: right;
+   text-align: right;
+}
+
+hr{
+    display: block;
+    float: right;
+    width: 250px;
+}
+
+#form-calculator form input {
+    display: block;
+    float: right;
+    width: 50px;
+    margin-left:10px;
+}
+
+button[type="submit"]{
+    display: block;
+    padding: 5px 20px;
+    margin: 10px 0 20px 0;
+    float: right;
+    background:rgb(54, 111, 141);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    border:0;
+    /*transition-duration: 1s;*/
+    
+}
+
+button[type="submit"]:hover{
+    background:rgb(174, 255, 93);
+    
+    /*transition-duration: 1s;*/
+}
+
+/*Formulário - Form Final*/
+
+
+/*Tabela de Taxas*/
+
+table{
+    width: 300px;   
+    text-align: center;
+    font-size:0.8em; 
+}
+
+td, th, tfoot{
+    border:1px solid rgb(204, 204, 204);
+    padding: 10px;
+    margin: 0;
+}
+
+td {
+    background: #EBEBEB;
+}
+
+thead{
+    
+    float: left;
+    column-span: 2;
+}
+
+th{
+    background:rgb(174, 255, 93);
+    column-span: 2;
+}
+
+
+thead{
+    display: block;
+    width: 300px;
+}
+
+/*Tabela de Taxas Final*/
